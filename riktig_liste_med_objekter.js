@@ -112,6 +112,7 @@ let mistenkte = [
     {fornavn:"Birk", etternavn:"Overland", fodselsaar:1979, minutter:1},
     {fornavn:"Ruben", etternavn:"Osland", fodselsaar:1988, minutter:3},
     {fornavn:"Elena", etternavn:"Dyrstad", fodselsaar:1995, minutter:10},
+    {fornavn:"Eva", etternavn:"Pedersen", fodselsaar:2007, minutter:5},
     {fornavn:"Felix", etternavn:"Sand", fodselsaar:2001, minutter:7},
     {fornavn:"Hilde", etternavn:"Kværnum", fodselsaar:1964, minutter:12},
     {fornavn:"Magnus", etternavn:"Fjeld", fodselsaar:1999, minutter:5},
