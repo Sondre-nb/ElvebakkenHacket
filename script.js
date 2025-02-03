@@ -9,7 +9,9 @@ function idjoisaNU45asdSbds72GDUSA(str) {
 function check(targetValue) {
     let inputField = document.getElementById("inputField");
     let inputValue = inputField.value.trim();
-
+    console.log("input og target:")
+    console.log(inputValue)
+    console.log(targetValue)
     return inputValue === targetValue;
 }
 
@@ -20,7 +22,10 @@ function attemptAnswer(level) { //levels var et argument her før, vet ikke om d
     const nextPageURL = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedNextPageURL));
 
     if (check(targetValue)) {
+        console.log("riktig")
         window.location.href = nextPageURL;
+    } else{
+        console.log("Feil")
     }
 }
 
