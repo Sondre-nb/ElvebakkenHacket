@@ -9,24 +9,17 @@ function idjoisaNU45asdSbds72GDUSA(str) {
 function check(targetValue) {
     let inputField = document.getElementById("inputField");
     let inputValue = inputField.value.trim();
-    console.log("input og target:")
-    console.log(inputValue)
-    console.log(targetValue)
     return inputValue === targetValue;
 }
 
 function attemptAnswer(level) { //levels var et argument her før, vet ikke om du hadde none stor plan, Trym, men tror det skal fungere uten
-    console.log("attemptAnswer er i det minste blitt kalt")
     const revEncodedTargetValue = levels[level][1];
     const revEncodedNextPageURL = levels[level][0];
     const targetValue = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedTargetValue));
     const nextPageURL = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedNextPageURL));
 
     if (check(targetValue)) {
-        console.log("riktig")
         window.location.href = nextPageURL;
-    } else{
-        console.log("Feil")
     }
 }
 
