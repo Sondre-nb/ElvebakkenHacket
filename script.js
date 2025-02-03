@@ -16,6 +16,7 @@ function check(targetValue) {
 }
 
 function attemptAnswer(level) { //levels var et argument her før, vet ikke om du hadde none stor plan, Trym, men tror det skal fungere uten
+    console.log("attemptAnswer er i det minste blitt kalt")
     const revEncodedTargetValue = levels[level][0];
     const revEncodedNextPageURL = levels[level][1];
     const targetValue = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedTargetValue));
