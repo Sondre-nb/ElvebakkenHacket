@@ -10,4 +10,8 @@ function createScrambledBase64(str) {
     return idjoisaNU45asdSbds72GDUSA(encodeBase64(str));
 }
 
-console.log(createScrambledBase64("sick.com"));
+function decodeScrambledBase64(str) {
+    return atob(idjoisaNU45asdSbds72GDUSA(str));
+}
+
+console.log(createScrambledBase64("placeholder"));
