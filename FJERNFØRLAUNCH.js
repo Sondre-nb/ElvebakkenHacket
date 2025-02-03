@@ -14,4 +14,5 @@ function decodeScrambledBase64(str) {
     return atob(idjoisaNU45asdSbds72GDUSA(str));
 }
 
-console.log(createScrambledBase64("placeholder"));
+console.log(createScrambledBase64("/side2medNoeEkstraForAaHindreJuks"));
+console.log(decodeScrambledBase64("=03MyAiOvl3e"));
