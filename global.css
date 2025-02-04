@@ -28,3 +28,24 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+#oppgave {
+    background-color: rgb(198, 255, 112);
+    padding: 10px;
+    color: black;
+    margin-block: 40px;
+}
+#oppgave h2 {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+img {
+    width: 100%;
+}
+#eksempel-overskrift {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
