@@ -9,6 +9,7 @@ function idjoisaNU45asdSbds72GDUSA(str) {
 function check(targetValue) {
     let inputField = document.getElementById("inputField");
     let inputValue = inputField.value.trim();
+    inputValue = inputValue.replaceAll('"', "'") //erstatter doble hermetegn med enkelte hermetegn
     return inputValue === targetValue;
 }
 
