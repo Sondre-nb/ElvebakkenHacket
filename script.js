@@ -15,7 +15,7 @@ function check(targetValue) {
 
 function attemptAnswer(level) {
     let levels = [
-        ["ztWdKVmck5WaIFWQy9mRhJHdztWRl9mTkVWbyUGZpN3L", "=IXZkx2boV2YhxGc"]
+        ["=M3a1pUZyRmbphUYBJ3bGFmc0N3aFV2bORWZtJTZkl2cvQXZrNWYI5WZrtWYiVmdsV0L", "=IXZkx2boV2YhxGc"]
     ]
     const revEncodedNextPageURL = levels[level][0];
     const revEncodedTargetValue = levels[level][1];
