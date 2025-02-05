@@ -19,6 +19,7 @@ function attemptAnswer(level) {
         ["placeholder-url", "9FDI6IXZ0RXdulWbgwiNwAjMgojchF2csV2ck9mZgwyJllGTnAiOuZXYuJXZ0RXZgwyJrl2apV0Jgojb2Fmby9mZ7BCI6AiMg0XOgojclRHd15WatBCL1ADMyAiOyFWYzxWZzR2bmBCLn4WZz5WYIdCI64mdh5mclRHdlBCLnwWZrtWaNdCI64mdh5mcvZ2egAiOgEDI9BDNgojclRHd15WatBCL5gTOxAiOyFWYzxWZzR2bmBCLn4WZzxWZrtWaNdCI64mdh5mclRHdlBCLnMnbhh0Jgojb2Fmby9mZ7BCI6ACM"]
 
     ]
+    console.log(levels[level][0])
     const revEncodedNextPageURL = levels[level][0];
     const revEncodedTargetValue = levels[level][1];
     const nextPageURL = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedNextPageURL));
