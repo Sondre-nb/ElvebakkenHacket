@@ -43,9 +43,15 @@ h1 {
 img {
     width: 100%;
 }
+#mindre_bilde {
+    width: 50%;
+}
 #eksempel-overskrift {
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+}
+#svarknapp:hover {
+    background-color: rgb(198, 255, 112);
 }
