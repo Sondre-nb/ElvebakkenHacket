@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elvebakken-hacket</title>
     <link rel="stylesheet" href="../global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
         <h1>Elvebakken-hacket</h1>
         <p>Assistenten din har nå fullført listen med mistenkte</p>
-        <p>Oppgaven din er nå å sortere etter etternavn</p>
+        <div id="oppgave">
+            <h2>Oppgave</h2>
+            <p>Oppgaven din er nå å sortere etter etternavn</p>
+        </div>
         <br>
-        <h3>Liste med mistenkte</h3>
+        <h3 id="eksempel-overskrift">Liste med mistenkte</h3>
         <div id="copyText">
             let mistenkte = [
     {fornavn:"Hans", etternavn:"Mikkelsen", fodselsaar:1989, minutter:2},
