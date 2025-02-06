@@ -10,7 +10,6 @@ function check(targetValue) {
     let inputField = document.getElementById("inputField");
     let inputValue = inputField.value.trim();
     inputValue = inputValue.replaceAll('"', "'") //erstatter doble hermetegn med enkelte hermetegn
-    inputValue = inputValue.replaceAll("{", "").replaceAll("}","") //fjerner alle krøllparantes
     return inputValue === targetValue;
 }
 
