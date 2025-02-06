@@ -72,3 +72,20 @@ button:hover {
 #hint-knapp:hover {
     background-color: #93FFDE;
 }
+/* bredde på hoved-scrollebar */
+body::-webkit-scrollbar{
+    width: 14px;
+}
+/* bakgrunnsfargen til hoved-scrollbaren */
+body::-webkit-scrollbar-track{
+    background: #212121;
+}
+/* utforming av hoved-scrollbar-thumb */
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #C6FF70  0%, #93FFDE 100%);
+    border-radius: 100vw;
+}
+/* hover-effekt på scrollbar-thumb */
+body::-webkit-scrollbar-thumb:hover{ 
+    background: linear-gradient(180deg, #D4FE93  0%, #B9FEE9 100%);
+}
