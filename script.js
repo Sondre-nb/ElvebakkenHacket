@@ -38,3 +38,7 @@ function attemptAnswer(level) {
     alert("Feil!");
     return false;
 }
+
+function visHint() {
+    document.getElementById("hint").style.display = "block"
+}

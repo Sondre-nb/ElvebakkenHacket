@@ -64,6 +64,10 @@ button:hover {
 }
 #hint {
     display: none;
+    background-color: #93FFDE;
+    color: black;
+    width: fit-content;
+    padding: 5px;
 }
 #hint-knapp:hover {
     background-color: #93FFDE;
