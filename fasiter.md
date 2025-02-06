@@ -1,7 +1,7 @@
 //Fasiter
 
 startsside:
-"etternavn :  'Mikkelsen' fodselsaar :  1989 fornavn :  'Hans' minutter :  40"
+etternavn :  'Mikkelsen' fodselsaar :  1989 fornavn :  'Hans' minutter :  40
 "==AM0ACI6AiclRHd15WatByJz5WYIdCIgoDIuZXYuJ3bmBSO4kTMgAiOgIXYhNHblNHZvZGIn4WZzxWZrtWaNdCIgoDIuZXYuJXZ0RXZ"
 
 side2:
