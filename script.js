@@ -25,11 +25,6 @@ function attemptAnswer(level) {
         ["vQHdpx0czVHbwlTZkl2cvQXZrNWYI5WZrtWYiVmdsV0LvlmLiVHa0l2ZuImbtUmck52bz9yL6MHc0RHa", "=0HNgojclRHd15WatBCL1ADMyAiOyFWYzxWZzR2bmBCLn4WZzJXZ0RXZQdCI64mdh5mclRHdlBCLnEmdFdCI64mdh5mcvZ2egAiOgEDI9VDI6IXZ0RXdulWbgwyNwAjMgojchF2csV2ck9mZgwyJuV2cyVGZlB1Jgojb2FmbyVGd0VGIscSY2V0Jgojb2Fmby9mZ7BCI6ACM"],
         ["=8SZkl2cyVmbulmdvQXZrNWYI5WZrtWYiVmdsV0LvlmLiVHa0l2ZuImbtUmck52bz9yL6MHc0RHa", "uV2cyVGZlBFIhZXR"]
     ]
-    console.log("Noe funker ihvertfall")
-    console.log(levels)
-    console.log(level)
-    console.log(levels[level])
-    console.log(levels[level][0])
     const revEncodedNextPageURL = levels[level][0];
     const revEncodedTargetValue = levels[level][1];
     const nextPageURL = njdasjAKSJ276tdSGDU(idjoisaNU45asdSbds72GDUSA(revEncodedNextPageURL));
