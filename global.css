@@ -78,7 +78,7 @@ body::-webkit-scrollbar{
 }
 /* bakgrunnsfargen til hoved-scrollbaren */
 body::-webkit-scrollbar-track{
-    background: #212121;
+    background: #111111;
 }
 /* utforming av hoved-scrollbar-thumb */
 body::-webkit-scrollbar-thumb{
