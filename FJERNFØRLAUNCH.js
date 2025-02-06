@@ -14,5 +14,5 @@ function decodeScrambledBase64(str) {
     return atob(idjoisaNU45asdSbds72GDUSA(str));
 }
 
-console.log(createScrambledBase64("/ElvebakkenHacket/side2medNoeEkstraForAaHindreJuks"));
+console.log(createScrambledBase64("/ElvebakkenHacket/side3medNoeAnnetITillegg/"));
 console.log(decodeScrambledBase64("=03MyAiOvl3e"));
