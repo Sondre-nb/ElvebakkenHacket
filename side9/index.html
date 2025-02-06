@@ -11,9 +11,13 @@
     <div id="container">
         <h1>Elvebakken-hacket</h1>
         <p>Assistenten din har nå fullført listen med mistenkte</p>
-        <p>Hackeren er den yngste av de siste mistenkte. Skriv det fulle navnet til hackeren i tekstboksen</p>
+        <p>Hackeren er den yngste av de siste mistenkte.</p>
+        <div id="oppgave">
+            <h2>Oppgave</h2>
+            <p>Skriv det fulle navnet til hackeren i tekstboksen.</p>
+        </div>
         <br>
-        <h3>Liste med mistenkte</h3>
+        <h3 id="eksempel-overskrift">Liste med mistenkte</h3>
         <div id="copyText">
             let mistenkte = [
     {fornavn:"Hans", etternavn:"Mikkelsen", fodselsaar:1989, minutter:2},
@@ -186,9 +190,6 @@
         <p></p>
         <button id="copyButton">Kopier listen med mistenkte</button>
         <p></p>
-        <img src="../bilder/konsoll-logging-av-liste-med-objekter.png" alt="">
-        <img src="../bilder/uaapnet-array-i-konsollen.png" alt="">
-        <img src="../bilder/markerte-objekter-som-skal-kopieres.png" alt="">
         <p></p>
         <input type="text" placeholder="Skriv inn det fulle navnet til hackeren"  id="inputField">
         <button onclick="attemptAnswer(8)">Svar</button>

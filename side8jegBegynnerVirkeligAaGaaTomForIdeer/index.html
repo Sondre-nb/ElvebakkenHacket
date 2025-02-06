@@ -11,10 +11,14 @@
     <div id="container">
         <h1>Elvebakken-hacket</h1>
         <p>Assistenten din har nå fullført listen med mistenkte</p>
-        <p>Du har nå fått vite at hackeren har samme fornavn som en annen mistenkt. Finn de mistenkte som deler fornavn. (Du kan enten velge å lage en ny liste eller fjerne de andre mistenkte).</p>
-        <p>Et tips er å sortere listen etter fornavn først</p>
+        <p>Du har nå fått vite at hackeren har samme fornavn som en annen mistenkt. </p>
+        <div id="oppgave">
+            <h2>Oppgave</h2>
+            <p>Finn de mistenkte som deler fornavn. (Oppgaven besvares enten ved å lage en ny liste eller fjerne de andre mistenkte fra listen).</p>
+        </div>
+        <p>Et tips er å sortere listen etter fornavn først.</p>
         <br>
-        <h3>Liste med mistenkte</h3>
+        <h3 id="eksempel-overskrift">Liste med mistenkte</h3>
         <div id="copyText">
             let mistenkte = [
     {fornavn:"Hans", etternavn:"Mikkelsen", fodselsaar:1989, minutter:2},
